@@ -2,12 +2,12 @@
 
 generator client {
   provider = "prisma-client"
-  output   = "../app/generated/prisma"
+  output   = "../generated/prisma"
 }
 
 datasource db {
   provider = "postgresql"
-  // sem URL! A URL agora vem do prisma.config.ts
+
 }
 
 model User {
